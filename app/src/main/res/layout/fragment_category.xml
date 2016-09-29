@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jere.ecomorganics.categoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:text="Category Listing :" />
+
+    <ListView
+        android:layout_below="@+id/products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plistView"
+        android:layout_gravity="fill_vertical" />
+
+</RelativeLayout>

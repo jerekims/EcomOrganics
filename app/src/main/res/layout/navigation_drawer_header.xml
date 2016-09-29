@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/row_bg">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/cprofile"
+        android:id="@+id/profile_img"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jeremiah"
+        android:layout_toRightOf="@+id/profile_img"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_img"
+        android:textSize="16sp"
+        android:text="kirikak19@gmail.com"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_below="@+id/name"
+        android:id="@+id/email"/>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jere.ecomorganics.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lheading"
+            android:textStyle="bold"
+            android:text="Login"
+            android:layout_marginTop="40dp"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+            android:id="@+id/lusername"
+            android:inputType="textAutoComplete"
+            android:textAlignment="center"
+            android:hint="Enter your username"
+            android:layout_below="@id/lheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:hint="Enter your password"
+            android:id="@+id/lpassword"
+            android:layout_below="@id/lusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/blogin"
+            android:layout_marginTop="24dp"
+            android:text="Login"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/lpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</FrameLayout>

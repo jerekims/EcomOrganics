@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@drawable/home">
+        </item>
+        <item
+            android:id="@+id/register"
+            android:title="Register"
+            android:icon="@drawable/login">
+        </item>
+        <item
+            android:id="@+id/Login"
+            android:title="Login"
+            android:icon="@drawable/login">
+        </item>
+        <item
+            android:id="@+id/setting"
+            android:title="Setting"
+            android:icon="@drawable/settings">
+        </item>
+    </group>
+
+    <item
+        android:title="Your shopping cart">
+        <menu>
+            <item
+                android:id="@+id/cart"
+                android:title="Cart Items"
+                android:icon="@drawable/cart">
+            </item>
+            <item
+                android:id="@+id/orders"
+                android:title="View Your Orders"
+                android:icon="@drawable/orders">
+            </item>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="share">
+            </item>
+        </menu>
+    </item>
+
+</menu>
